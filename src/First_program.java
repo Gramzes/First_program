@@ -8,5 +8,6 @@ public class First_program {
         System.out.println("Input your age:");
         int age = scanner.nextInt();
         System.out.printf("Hi! I'm %s and i'm %d years old. \n", name, age);
+        System.out.println(6^1);//xor
     }
 }
