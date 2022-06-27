@@ -1,3 +1,4 @@
+import java.awt.*;
 import java.util.Scanner;
 
 public class First_program {
@@ -12,5 +13,6 @@ public class First_program {
         long a = 534234233323422L;
         System.out.println((int)a); //явное преобразование с усечением
         System.out.println((int)56.99);
+        System.out.println("Feature branch");
     }
 }
