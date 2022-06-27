@@ -1,7 +1,12 @@
+import java.util.Scanner;
+
 public class First_program {
     public static void main(String ...args){
-        String name = "Tom";
-        int age = 30;
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Input your name:");
+        String name = scanner.nextLine();
+        System.out.println("Input your age:");
+        int age = scanner.nextInt();
         System.out.printf("Hi! I'm %s and i'm %d years old. \n", name, age);
     }
 }
