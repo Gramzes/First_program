@@ -9,5 +9,8 @@ public class First_program {
         int age = scanner.nextInt();
         System.out.printf("Hi! I'm %s and i'm %d years old. \n", name, age);
         System.out.println(6^1);//xor
+        long a = 534234233323422L;
+        System.out.println((int)a); //явное преобразование с усечением
+        System.out.println((int)56.99);
     }
 }
