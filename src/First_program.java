@@ -1,4 +1,3 @@
-import java.awt.*;
 import java.util.Scanner;
 
 public class First_program {
@@ -14,5 +13,21 @@ public class First_program {
         System.out.println((int)a); //явное преобразование с усечением
         System.out.println((int)56.99);
         System.out.println("Feature branch");
+        /*
+        Бесконечный цикл
+        for (;;){
+            System.out.println(1);
+        }
+        Цикл только с условием
+        int i=0;
+        for (;i<10;){
+            i++;
+        }
+        Цикл с несколькими переменными
+        for (int i=0, int j=0; i<10 and j<100;i++,j++)
+        {
+
+        }
+         */
     }
 }
