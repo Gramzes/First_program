@@ -43,4 +43,8 @@ public class First_program {
             System.out.println(name);
         }
     }
+
+    static int PrintNames(String yourName, String ...names){ //перегрузка метода
+        return 1+ names.length;
+    }
 }
