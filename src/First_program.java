@@ -29,5 +29,14 @@ public class First_program {
 
         }
          */
+
+        int[][] array = new int[3][2];
+        for(int[] i:array){      //замена foreach
+            for (int j:i){
+                System.out.println(j);
+            }
+        }
+
+
     }
 }
