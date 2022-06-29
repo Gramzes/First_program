@@ -36,7 +36,11 @@ public class First_program {
                 System.out.println(j);
             }
         }
+    }
 
-
+    static void PrintNames(String ...names){ //параметры переменной длины
+        for(String name:names){
+            System.out.println(name);
+        }
     }
 }
